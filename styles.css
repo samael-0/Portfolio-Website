@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body css */
+body {
+  background-color: rgb(37, 42, 52);
+  color: #eeeeee;
+  font-family: "Itim", cursive;
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar css */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(71, 79, 122);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+nav ul li a:hover {
+  color: #00adb5;
+}
+.left {
+  font-size: 1.5rem;
+}
+
+/* first section css */
+#firstSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: red */
+  margin: 8vw 0;
+}
+
+#firstSection > div {
+  width: 39%;
+}
+
+.leftSection {
+  /* background-color: red; */
+  font-size: 3rem;
+  /* margin: 40px 0; */
+  padding-left: 7%;
+}
+
+.bottomSection {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.bottomSection a {
+  text-decoration: none;
+  color: #ffd0ec;
+  margin: 10px;
+  border: 2px;
+  background-color: blueviolet;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.rightSection img {
+  /* background-color: red */
+  width: 80%;
+  padding-left: 30px;
+}
+
+.purple {
+  color: red;
+}
+
+/* second section css */
+
+#secondSection {
+  display: flex;
+  background-color: #ff2e63;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* border: 3px solid #ffd0ec; */
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+/* .aboutme {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid #ffd0ec;
+} */
+
+.leftsidee {
+  /* border: 2px solid red; */
+  width: 70%;
+  background-color: #252a34;
+  margin-right: 80px;
+  padding: 20px;
+}
+.rightsidee img {
+  width: 100%;
+}
+#s2-primary {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  /* margin: 20px 0; */
+  /* margin-top: 15px; */
+  /* margin-bottom: 15px; */
+  padding-left: 39%;
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#s2-secondary {
+  color: rgb(255, 208, 236);
+  font-family: "Barlow", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  padding: 3%;
+  line-height: 2;
+}
+
+/* third section/project section */
+.project {
+  display: flex;
+  padding: 30px 96px;
+}
+
+#pro {
+  display: flex;
+  justify-items: center;
+  /* margin: 20px 0; */
+  margin-top: 15px;
+  /* margin-bottom: 15px; */
+  padding-left: 43%;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1vw;
+  margin-top: 2%;
+}
+
+.cards {
+  width: 500px;
+  background-color: rgba(129, 104, 157, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.cards img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #cccccc; /* Adds a border below the image */
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.card-content p {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.read-more {
+  display: inline;
+  text-decoration: none;
+  color: #ffd0ec;
+  border: 2px;
+  background-color: blueviolet;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+
+/* contact me section */
+
+#fourthSection {
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #ff2e63;
+}
+
+.contactme {
+  text-align: center;
+}
+.cont {
+  margin: 30px 150px;
+  font-size: 2rem;
+}
+
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 10px auto;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 18px 84px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* footer */
+footer {
+  background-color: #252a34;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.copyright p {
+  font-size: 14px;
+  color: white;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="phone.css">
+
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Shrawan Sharma</div>
+        <div class="right">
+          <ul>
+            <li><a href="#firstSection">Home</a></li>
+            <li><a href="#secondSection">About me</a></li>
+            <li><a href="#thirdSection">Projects</a></li>
+            <li><a href="#fourthSection" id="contt">Contact me</a></li>
+            <li><a href="#" class="btn-primary">Download CV</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="firstSection">
+        <div class="leftSection">
+          <div class="tired">Hi, im <span class="purple"><span id="element"></span></span>
+          <div>I am a passionate <span class="purple"><span id="element2"></span></span></div></div>
+          <div class="bottomSection">
+            <a href="#contact" class="btn-primary blue">Download CV</a>
+
+            <a href="https://github.com/samael-0" class="btn-primary">Github</a>
+          </div>
+        </div>
+        </div>
+ 
+        <div class="rightSection">
+          <img src="bg.png" alt="" />
+        </div>
+
+      </section>
+
+      <section id="secondSection">
+        <div class="leftsidee">
+            <div class="aboutme">   
+            <div id="s2-primary">About Me</div>
+            <p id="s2-secondary">
+                Hi i am <span class="black">Shrawan Sharma</span> a passionate web
+                developer currently learning web development.I am currently studying
+                BscCsit from Kathmandu University. Below are some of my Skills And
+                Projects Listed
+            </p>
+            </div>
+        </div>
+    <div class="rightsidee">
+        <img src="aboutme.png" alt="">
+    </div>  
+        </div>
+      </section>
+      <section id="thirdSection">
+        <div class="project">
+            <h1 id="pro">My projects</h1>
+        </div>
+        <div class="card-container">
+            <div class="cards">
+                <img src="project1.jpg" alt="">
+                <div class="card-content">
+                    <h3>Password Generator</h3>
+                    <p>This is a simple password generator created using python</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="project2.jpg" alt="">
+                <div class="card-content">
+                    <h3>Hangman</h3>
+                    <p>This is a simple password generator created using python</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="project3.jpg" alt="">
+                <div class="card-content">
+                    <h3>Portfolio Website</h3>
+    
+                    <p>This is a simple password generator created using python</p>
+                    <div><a href="#" class="read-more">Read More</a></div>
+                </div>
+            </div>
+        </div>
+
+      </section>
+      <section id="fourthSection">
+        <div class="contactme">
+            <div class="cont">Contact Me</div>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email Id">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Phone Number">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+      </section>
+      <footer>
+        <footer id="foot">
+            <div class="copyright">
+              <p>&copy; 2024 ShrawanSharma. All Rights Reserved.</p>
+            </div>
+          </footer>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Shrawan Sharma"],
+        typeSpeed: 50,
+      });
+    </script>
+    <script>
+      var typed = new Typed("#element2", {
+        strings: ["Web Developer","Content Writer"],
+        typeSpeed: 50,
+    backSpeed: 50, // Set backSpeed to match typeSpeed for consistency
+    loop: true, // Loop continuously
+    backDelay: 500, // Set a very small delay between loops (adjust as needed)
+    smartBackspace: true // Enable smart backspace for a more natural effect
+  });
+    </script>
+  </body>
+</html>
